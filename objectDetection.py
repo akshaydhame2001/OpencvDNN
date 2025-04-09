@@ -3,7 +3,7 @@ import time
 import numpy as np
 
 # Load the COCO class names
-with open('models/COCO.txt', 'r') as f:
+with open('models/COCO90.txt', 'r') as f:
     class_names = f.read().split('\n')
 
 print(class_names)
